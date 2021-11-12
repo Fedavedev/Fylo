@@ -27,7 +27,7 @@
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
     row-gap: 20px;
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
   }
   .hero .hero-col-2 {
@@ -38,7 +38,7 @@
     height: 1300px !important;
   }
   .bg-img {
-    top: -35px !important;
+    top: -30px !important;
   }
   .testimonial-container {
     display: -webkit-box !important;
@@ -60,7 +60,7 @@
     text-align: center !important;
   }
   .card-holder {
-    max-width: 400px !important;
+    max-width: 300px !important;
     margin: 0 auto;
   }
   .card-holder .texts {
@@ -89,6 +89,8 @@
     display: grid;
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
+    max-width: 300px;
+    margin: 0 auto;
   }
   footer {
     height: 510px !important;

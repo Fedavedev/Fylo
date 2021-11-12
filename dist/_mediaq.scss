@@ -22,7 +22,7 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         row-gap: 20px;
-        max-width: 400px;
+        max-width: 300px;
         margin: 0 auto;
       }
     }
@@ -38,7 +38,7 @@
   }
 
   .bg-img {
-    top: -35px !important;
+    top: -30px !important;
   }
 
   .testimonial-container {
@@ -60,7 +60,7 @@
   }
 
   .card-holder {
-    max-width: 400px !important;
+    max-width: 300px !important;
     margin: 0 auto;
 
     .texts {
@@ -86,6 +86,8 @@
     .access-col-2 {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
+      max-width: 300px;
+      margin: 0 auto;
     }
   }
 
