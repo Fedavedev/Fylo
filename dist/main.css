@@ -2,6 +2,7 @@
 @media (max-width: 800px) {
   .logo {
     padding-left: 8px;
+    width: 10%;
   }
   .hero {
     height: 900px !important;
@@ -60,7 +61,7 @@
     text-align: center !important;
   }
   .card-holder {
-    max-width: 300px !important;
+    max-width: 310px !important;
     margin: 0 auto;
   }
   .card-holder .texts {
@@ -89,8 +90,8 @@
     display: grid;
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
-    max-width: 300px;
-    margin: 0 auto;
+    max-width: 300px !important;
+    margin: 0 auto !important;
   }
   footer {
     height: 510px !important;

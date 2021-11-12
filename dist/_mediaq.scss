@@ -1,6 +1,7 @@
 @media (max-width: 800px) {
   .logo {
     padding-left: 8px;
+    width: 10%;
   }
 
   .hero {
@@ -60,7 +61,7 @@
   }
 
   .card-holder {
-    max-width: 300px !important;
+    max-width: 310px !important;
     margin: 0 auto;
 
     .texts {
@@ -86,8 +87,8 @@
     .access-col-2 {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
-      max-width: 300px;
-      margin: 0 auto;
+      max-width: 300px !important;
+      margin: 0 auto !important;
     }
   }
 
