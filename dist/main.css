@@ -90,7 +90,7 @@
     display: grid !important;
     -ms-grid-columns: (1fr)[1] !important;
         grid-template-columns: repeat(1, 1fr) !important;
-    max-width: 270px !important;
+    max-width: 300px !important;
     margin: 0 auto !important;
   }
   .access-container .access-col-2 input[type="email"] {
