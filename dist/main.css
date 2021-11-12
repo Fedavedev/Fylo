@@ -92,7 +92,12 @@
         grid-template-columns: repeat(1, 1fr) !important;
     max-width: 270px !important;
     margin: 0 auto !important;
-    overflow: hidden;
+  }
+  .access-container .access-col-2 input[type="email"] {
+    padding: 20px 50px;
+  }
+  .access-container .access-col-2 input[type="submit"] {
+    padding: 12px 25px;
   }
   footer {
     height: 510px !important;
